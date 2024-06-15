@@ -69,14 +69,7 @@ section {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.mapa {
-    background-color: #ddd;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-}
+
 footer {
     background-color: #663300; /* Color secundario */
     color: #fff;
