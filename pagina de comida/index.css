@@ -3,9 +3,12 @@
     padding: 0px;
 }
 .logo{
-    width: 40px;
-    height: 40px;
-    align-items: left;
+    width: 80px;
+    height: 80px;
+}
+.logo_footer{
+    width: 60px;
+    height: 60px;
 }
 header {
     background-color: #ffff00; /* Color primario */
@@ -20,6 +23,7 @@ body {
     box-sizing: border-box;
     background-color: #f3dbc3; /* Color de fondo general */
     color: #663300; /* Color del texto */
+    font-size: 20px;
 }
 
 .banner {
@@ -42,7 +46,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    margin: 1rem 0 0 0;
+    margin: 0 0 0 0;
 }
 nav ul li {
     margin: 0 1rem;
@@ -54,7 +58,7 @@ nav ul li a {
     font-weight: bold;
     display: block;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
 }
     nav ul li a:hover{
         background-color: #854200;
@@ -121,4 +125,7 @@ footer {
 
 footer p {
     margin: 0;
+}
+.p_centrado{
+    text-align: center;
 }
